@@ -5,14 +5,10 @@ import {
   Separator,
   YStack,
 } from 'tamagui'
-import { TextLink } from 'solito/link';
-import Header from "app/features/header/index"
 
 export function HomeScreen() {
 
   return (
-    <>
-      <Header />
       <YStack>
         <YStack gap="$4">
           <H1>
@@ -25,10 +21,9 @@ export function HomeScreen() {
           <Separator />
         </YStack>
 
-        <Button><TextLink href="/connexion">Se Connecter</TextLink></Button>
-        <Button><TextLink href="/inscription">S'inscrire</TextLink></Button>
-        <Button><TextLink href="/team-demo">Equipe démo</TextLink></Button>
+        <Button>Se Connecter</Button>
+        <Button>S'inscrire</Button>
+        <Button>Equipe démo</Button>
       </YStack>
-    </>
   )
 }
