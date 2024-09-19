@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tamagui/core": "^1.111.10",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
@@ -14,6 +15,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "swr": "^2.2.5",
+    "tamagui": "^1.111.10",
     "typescript": "^5.4.5"
   }
 }
