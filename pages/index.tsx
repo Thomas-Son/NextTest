@@ -4,7 +4,7 @@ import {
   Paragraph,
   Separator,
   YStack,
-} from '@my/ui'
+} from 'tamagui'
 import { TextLink } from 'solito/link';
 import Header from "app/features/header/index"
 

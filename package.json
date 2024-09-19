@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0",
     "swr": "^2.2.5",
     "tamagui": "^1.111.10",
+    "tamagui-loader": "^1.111.10",
     "typescript": "^5.4.5"
   }
 }
